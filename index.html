@@ -1,7 +1,141 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head> </head>
+  <head>
+    <!--Meta Tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!--Additional CSS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Karol Blanchard</title>
+    <link rel="icon" href="/images/icon.png" />
+  </head>
   <body>
-    <h3>Hello</h3>
+    <!--START OF NAV BAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#profileNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="profileNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--END NAV BAR-->
+    <!-- HEADER -->
+    <div class="jumbotron">
+      <div class="jumbotron-text">
+        <h1>Karol Blanchard</h1>
+        <div class="image-cropper container">
+            <img src="/images/0.jpg" alt="profile" class="profile-pic">
+          </div>
+        <p>Beginner Full-Stack Web Developer</p>
+        <div id="container">
+          <div id="center">
+            <div class="typewriter">
+              <p>Lets Be Internet Friends</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron-social">
+        <ul class="ul-social">
+          <li class="li-social-links">
+            <a
+              class="social"
+              href="https://github.com/KarolO1998/"
+              target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="li-social-links">
+            <a
+              class="social"
+              href="https://linkedin.com/karol-oconnor-b48613203/"
+              target="_blank"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="li-social-links">
+            <a
+              class="social"
+              href="https://www.twitch.tv/karolo1998/"
+              target="_blank"
+              ><i class="fa fa-twitch" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="li-social-links">
+            <a
+              class="social"
+              href="https://facebook.com/karol.daun/"
+              target="_blank"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END HEADER -->
+    <!--<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h5>Social</h5>
+            <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>-->
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

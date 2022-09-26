@@ -1,0 +1,111 @@
+.navbar {
+  background-color: black;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: rgba(242, 242, 242, 0.6);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*JUMBOTRON*/
+.jumbotron {
+  height: 100vh; /*height to 100% of view height*/
+  background: #000000; /*background color to black*/
+  margin-bottom: 0; /*no bottom margin*/
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron-text {
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.jumbotron-text h1 {
+  /*YOUR NAME*/
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 9vmax;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 0;
+}
+
+/*SOCIAL LINKS*/
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+}
+/* Typewriter Effect */
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+#container {
+  display: flex;
+}
+#center {
+  margin: auto;
+}
+.image-cropper {
+  background-color: rgb(231, 231, 231);
+  width: 100px;
+  height: 100px;
+  position: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: auto;
+  justify-content: center;
+}
