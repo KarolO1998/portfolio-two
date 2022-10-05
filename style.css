@@ -421,3 +421,13 @@ h2 {
 .fa-facebook:hover{
   color:#000000;
 }
+.resume{
+  color:#570888;
+  font-weight:bold;
+}
+.resume:hover{
+  color:#570888;
+}
+p {
+  text-align: center;
+}
